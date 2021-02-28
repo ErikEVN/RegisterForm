@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="login">
+        <form action="#" autocomplete="off">
+            <h1>Register</h1>
+            <div id="error"></div>
+            <div class="login_input"><input type="name" placeholder="Name" id="name"></div>
+            <div class="login_input"><input type="lastname" placeholder="Lastname" id="lastname"></div>
+            <div class="login_input"><input type="email" placeholder="Email" id="email"></div>
+            <div class="login_input"><input type="text" placeholder="Code" id="code"></div>
+            <div class="login_input file_up">
+                <input type="file" class="upload" id="upload">
+                <span>Image Upload</span>
+            </div>
+            <div class="login_input"><button id="button">Register</button></div>
+        </form>
+    </div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Code</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td id="td_1"></td>
+                <td id="td_2"></td>
+                <td id="td_3"></td>
+                <td id="td_4"></td>
+                <td><img src="" id="td_5"></td>
+            </tr>
+        </table>
+        <button id="new">New Start</button>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
