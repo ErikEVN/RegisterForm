@@ -133,7 +133,7 @@ table, th, td {
 @media screen and (max-width: 500px){
     .login{
         width: 250px;
-        height: 250px;
+        height: auto;
     }
 
     .login > form > .login_input > input, .login > form > .login_input > button, .file_up{
